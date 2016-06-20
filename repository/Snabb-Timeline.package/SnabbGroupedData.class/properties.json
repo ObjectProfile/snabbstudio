@@ -1,0 +1,14 @@
+{
+	"category" : "Snabb-Timeline",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data" ],
+	"name" : "SnabbGroupedData",
+	"pools" : [
+		 ],
+	"super" : "RTData",
+	"type" : "normal" }
