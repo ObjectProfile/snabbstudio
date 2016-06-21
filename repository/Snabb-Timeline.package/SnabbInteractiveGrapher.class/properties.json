@@ -1,0 +1,20 @@
+{
+	"category" : "Snabb-Timeline",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"zoom",
+		"maxPoints",
+		"centerIndex",
+		"centerPoint",
+		"data",
+		"wasRendered",
+		"dataset" ],
+	"name" : "SnabbInteractiveGrapher",
+	"pools" : [
+		 ],
+	"super" : "RTBuilder",
+	"type" : "normal" }

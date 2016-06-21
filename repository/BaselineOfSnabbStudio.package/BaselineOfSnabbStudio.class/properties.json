@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSnabbStudio",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PeterUhnak 6/20/2016 10:24",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSnabbStudio",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

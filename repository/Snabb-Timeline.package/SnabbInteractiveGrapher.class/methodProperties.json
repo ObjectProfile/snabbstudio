@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"centerIndex" : "PeterUhnak 6/15/2016 17:22",
+		"centerPoint" : "PeterUhnak 6/15/2016 17:26",
+		"context" : "PeterUhnak 6/15/2016 17:24",
+		"contextSize" : "PeterUhnak 6/15/2016 17:23",
+		"createGrapher" : "PeterUhnak 6/15/2016 20:43",
+		"createInfoLegend" : "PeterUhnak 6/16/2016 10:44",
+		"data" : "PeterUhnak 6/15/2016 17:09",
+		"data:" : "PeterUhnak 6/15/2016 17:09",
+		"dataSet" : "PeterUhnak 6/16/2016 10:59",
+		"maxPoints" : "PeterUhnak 6/15/2016 17:16",
+		"maxPoints:" : "PeterUhnak 6/15/2016 17:16",
+		"mouseZoom:" : "PeterUhnak 6/16/2016 11:00",
+		"pathFor:" : "PeterUhnak 6/16/2016 10:42",
+		"perGroup" : "PeterUhnak 6/16/2016 10:32",
+		"reduceToMinAndMax:" : "PeterUhnak 6/15/2016 17:29",
+		"renderIn:" : "PeterUhnak 6/16/2016 10:49",
+		"renderOnce:" : "PeterUhnak 6/15/2016 20:45",
+		"totalPoints" : "PeterUhnak 6/15/2016 17:19",
+		"zoom" : "PeterUhnak 6/15/2016 17:09",
+		"zoom:" : "PeterUhnak 6/15/2016 17:09",
+		"zoomInOn:" : "PeterUhnak 6/16/2016 10:47",
+		"zoomInOn:by:" : "PeterUhnak 6/16/2016 10:48",
+		"zoomOut" : "PeterUhnak 6/16/2016 10:50",
+		"zoomStep" : "PeterUhnak 6/16/2016 10:57" } }
