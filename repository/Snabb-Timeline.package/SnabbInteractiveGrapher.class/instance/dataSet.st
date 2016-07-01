@@ -7,8 +7,8 @@ dataSet
 	"ds noDot."
 	ds data: data.
 	ds points: (self reduceToMinAndMax: self context).
-	ds x: #first.
-	ds y: #second.
+	ds x: #tsc.
+	ds y: #lag.
 	ds
 		connectUsing:
 			(RTSVGPathLine new

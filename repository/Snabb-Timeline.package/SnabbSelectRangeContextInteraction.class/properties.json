@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"data",
-		"firstElement",
-		"lastElement" ],
-	"name" : "SnabbGroupedData",
+		 ],
+	"name" : "SnabbSelectRangeContextInteraction",
 	"pools" : [
 		 ],
-	"super" : "RTData",
+	"super" : "RTAbstractContextInteraction",
 	"type" : "normal" }
