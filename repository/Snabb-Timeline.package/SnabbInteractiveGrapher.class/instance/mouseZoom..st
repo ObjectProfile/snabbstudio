@@ -6,7 +6,8 @@ mouseZoom: anEvent
 		ifTrue: [ | p |
 			p := self context
 				detectMin:
-					[ :each | (dataset getPixelPositionOf: each first @ each second) dist: anEvent position ].
-			self zoomInOn: p first @ p second ].
+					[ :each | (dataset getPixelPositionOf: each tsc @ each lag) dist: anEvent position ].
+			self zoomIn.
+			"self zoomInOn: p first @ p second" ].
 	anEvent isDown
 		ifTrue: [ ^ self zoomOut ]

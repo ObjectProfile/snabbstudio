@@ -9,19 +9,22 @@ renderIn: aView
 					zoom := zoom + self zoomStep.
 					self zoomOut ].
 			view when: TRMouseWheelEvent do: [ :evt | self mouseZoom: evt ].
-			view @ RTDraggableView ].
+			"view when: TRMouseDragging do: [ :evt | self mouseDrag: evt ]"
+			view @ RTDraggableView.
+			SnabbSelectRangeContext setOnView: view.
+			self renderButtons ].
 	g := self createGrapher.
 	lb := self createInfoLegend.
 	ds := self dataSet.
 	ds interaction
 		when: TRMouseLeftClick
-		do:
-			[ :evt | self zoomInOn: evt element model first @ evt element model second by: self zoomStep * 10 ].
+		do: [ :evt | self zoomInOn: evt element model by: self zoomStep * 10 ].
 	g add: ds.
 	g axisX
 		noDecimal;
 		numberOfLabels: maxPoints / 2;
-		numberOfTicks: maxPoints.
+		numberOfTicks: maxPoints;
+		labelRotation: -30.
 	g axisY noDecimal.
 	g build.
 	lb build

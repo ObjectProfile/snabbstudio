@@ -1,7 +1,7 @@
 as yet unclassified
 pathFor: anEdge
 	| toStr midPoints midPoints2 pfp width |
-	midPoints := data sliceFrom: anEdge from model first to: anEdge to model first.
+	midPoints := data sliceFrom: (data indexOf: anEdge from model) to: (data indexOf: anEdge to model).
 	width := anEdge to position x - anEdge from position x.
 	width := width asFloat.
 	midPoints2 := OrderedCollection new.
@@ -14,17 +14,17 @@ pathFor: anEdge
 		getValue: point x
 		min: anEdge from position x
 		max: anEdge to position x
-		minValue: midPoints first first
-		maxValue: midPoints last first.
+		minValue: midPoints first tsc
+		maxValue: midPoints last tsc.
 	anY := RTMetricNormalizer new
 		getValue: point y
 		min: anEdge from position y
 		max: anEdge to position y
-		minValue: midPoints first second
-		maxValue: midPoints last second.
+		minValue: midPoints first lag
+		maxValue: midPoints last lag.
 	anX @ anY ].
 	toStr := [ :el | el x asFloat asString , ',' , el y asFloat asString ].
 	^ String
 		streamContents: [ :s | 
 			s nextPutAll: 'M'.
-			midPoints do: [ :each | s nextPutAll: (toStr value: (pfp value: (each first + 1) @ each second)) ] separatedBy: [ s nextPutAll: ' ' ] ]
+			midPoints do: [ :each | s nextPutAll: (toStr value: (pfp value: (each tsc + 1) @ each lag)) ] separatedBy: [ s nextPutAll: ' ' ] ]
