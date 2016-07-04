@@ -3,7 +3,9 @@ renderIn: aView
 	| g lb ds |
 	view := aView.
 	self
-		renderOnce: [ view
+		renderOnce: [ | int |
+			view attributeAt: self className put: self.
+			view
 				when: TRMouseRightClick
 				do: [ :evt | 
 					zoom := zoom + self zoomStep.
