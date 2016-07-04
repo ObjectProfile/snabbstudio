@@ -1,0 +1,19 @@
+{
+	"category" : "SnabbStudio-Hydra",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"benchmark",
+		"id",
+		"score",
+		"unit",
+		"buildId",
+		"evaluation" ],
+	"name" : "SHBuild",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

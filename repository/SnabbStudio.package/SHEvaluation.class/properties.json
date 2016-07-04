@@ -1,0 +1,15 @@
+{
+	"category" : "SnabbStudio-Hydra",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PeterUhnak 7/4/2016 11:32",
+	"instvars" : [
+		"id",
+		"storage" ],
+	"name" : "SHEvaluation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
