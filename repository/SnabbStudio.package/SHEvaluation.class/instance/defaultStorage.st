@@ -1,3 +1,3 @@
 accessing - files
 defaultStorage
-	^ FileLocator temp asFileReference / 'snabb' / self id asString
+	^ FileLocator imageDirectory asFileReference / 'snabb' / self id asString

@@ -1,2 +1,2 @@
-(name 'SnabbStudio-PeterUhnak.4' message 'Added interface manipulating with Hydra.' id '6b13cd2b-cf80-40fd-b614-e5b9f307b66d' date '4 July 2016' time '12:59:16.653637 pm' author 'PeterUhnak' ancestors ((name 'SnabbStudio-LukeGorrie.3' message 'Milestone: Parsed a 2000 line trace file
-' id 'af865ced-2c3b-50a4-be4b-1bdb89d4f175' date '21 February 2016' time '3:39:15 pm' author 'LukeGorrie' ancestors () stepChildren ())) stepChildren ())
+(name 'SnabbStudio-PeterUhnak.5' message 'Use image dir, not temp.' id 'f7d24c83-ab66-4ad7-9b33-a554ae5c2e8a' date '4 July 2016' time '1:55:10.159913 pm' author 'PeterUhnak' ancestors ((name 'SnabbStudio-PeterUhnak.4' message 'Added interface manipulating with Hydra.
+' id '2754a5cb-a88e-5f19-a609-bfd46e4feb0c' date '4 July 2016' time '12:59:38 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
