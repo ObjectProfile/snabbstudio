@@ -2,6 +2,7 @@
 	"class" : {
 		"test" : "AlexandreBergel 5/5/2016 09:27:00" },
 	"instance" : {
+		"entrySizeInBytes" : "AlexandreBergel 7/3/2016 15:48",
 		"gtInspectorFlowIn:" : "AlexandreBergel 5/5/2016 09:27:00",
 		"gtInspectorLogIn:" : "AlexandreBergel 5/5/2016 09:27:00",
 		"gtInspectorSumTilesIn:" : "AlexandreBergel 5/5/2016 09:27:00",
@@ -11,9 +12,12 @@
 		"gtInspectorTimeLineSortedLagIn:" : "AlexandreBergel 5/5/2016 09:27:00",
 		"header" : "AlexandreBergel 5/5/2016 09:27:00",
 		"header:" : "AlexandreBergel 5/5/2016 09:27:00",
+		"headerSize" : "AlexandreBergel 7/3/2016 15:49",
 		"load:" : "PeterUhnak 7/1/2016 20:02",
-		"load:from:" : "PeterUhnak 7/1/2016 20:05",
+		"load:from:" : "AlexandreBergel 7/3/2016 15:49",
+		"loadSamples:from:" : "AlexandreBergel 7/3/2016 15:50",
 		"records" : "AlexandreBergel 5/5/2016 09:27:00",
 		"records:" : "AlexandreBergel 5/5/2016 09:27:00",
+		"reducingFactorForProgressBar" : "AlexandreBergel 7/3/2016 15:48",
 		"string:" : "AlexandreBergel 5/5/2016 09:27:00",
 		"timeStampDeltas" : "AlexandreBergel 5/5/2016 09:27:00" } }

@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "AlexandreBergel 5/5/2016 09:10",
 	"instvars" : [
-		"magic",
 		"stream",
 		"header",
-		"records",
-		"strings",
-		"stringTablePosition" ],
+		"records" ],
 	"name" : "SnabbTimeline",
 	"pools" : [
 		 ],

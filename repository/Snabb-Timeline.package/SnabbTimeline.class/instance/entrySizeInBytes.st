@@ -1,0 +1,3 @@
+configuration
+entrySizeInBytes
+	^ 64

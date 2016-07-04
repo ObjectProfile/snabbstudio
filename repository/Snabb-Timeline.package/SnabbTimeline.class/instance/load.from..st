@@ -1,9 +1,9 @@
-initialization
+loading
 load: aLimit from: filename
 	| prev |
 	stream := FileStream readOnlyFileNamed: filename.
 	stream binary.
-	header := stream next: 64.
+	header := stream next: self headerSize.
 	prev := nil.
 	records := OrderedCollection new.
 	'Loading ' , aLimit asString , ' records...'
