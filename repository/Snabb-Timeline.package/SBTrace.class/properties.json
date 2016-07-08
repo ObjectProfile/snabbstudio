@@ -1,0 +1,14 @@
+{
+	"category" : "Snabb-Timeline-Launcher",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fileReference" ],
+	"name" : "SBTrace",
+	"pools" : [
+		 ],
+	"super" : "SBObject",
+	"type" : "normal" }
