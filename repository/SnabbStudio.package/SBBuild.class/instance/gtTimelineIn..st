@@ -5,7 +5,7 @@ gtTimelineIn: composite
 	composite roassal2
 		title: 'Timeline (first 10k)';
 		initializeView: [ | g records |
-			g := SnabbInteractiveGrapher new.
+			g := SBInteractiveGrapher new.
 			records := (SnabbTimeline new load: 10000 from: self timelineFile) records.
 			g data: records.
 			g zoom: 1.

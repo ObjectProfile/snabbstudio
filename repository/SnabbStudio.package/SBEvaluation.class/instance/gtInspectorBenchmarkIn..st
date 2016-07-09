@@ -5,7 +5,7 @@ gtInspectorBenchmarkIn: composite
 	composite roassal2
 		title: 'CSV benchmark';
 		initializeView: [ | b |
-			b := SnabbBenchmark new.
+			b := SBBenchmark new.
 			b source: self benchCsvFile.
 			b evaluation: self.
 			b build.
