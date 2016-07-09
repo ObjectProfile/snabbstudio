@@ -3,11 +3,10 @@ gtTimelineIn: composite
 	<gtInspectorPresentationOrder: 30>
 	self ensureTimelineDownloaded.
 	composite roassal2
-		title: 'Timeline (first 10k)';
-		initializeView: [ | g records |
+		title: 'Timeline';
+		initializeView: [ | g |
 			g := SBInteractiveGrapher new.
-			records := (SnabbTimeline new load: 10000 from: self timelineFile) records.
-			g data: records.
+			g data: (SBTimelineReader new readFile: self timelineFile) records.
 			g zoom: 1.
 			g maxPoints: 10.
 			g build.

@@ -4,9 +4,16 @@ unpack: aFile
 
 	[ :bar | 
 	bar title: 'Unpacking ' , aFile basename.
-	OSSUnixSubprocess new
+	self
+		system:
+			('(cd ''{1}''; tar xvf ''{2}'')'
+				format:
+					{aFile parent pathString.
+					aFile pathString}).
+	bar progress: 1.0
+	"OSSUnixSubprocess new
 		workingDirectory: aFile parent pathString;
 		command: 'tar';
 		arguments: (Array with: 'xvf' with: aFile pathString);
 		redirectStdin;
-		runAndWaitOnExitDo: [ :process :stdout | bar progress: 1.0 ] ] asJob run
+		runAndWaitOnExitDo: [ :process :stdout | bar progress: 1.0 ]" ] asJob run

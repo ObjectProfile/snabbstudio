@@ -1,2 +1,2 @@
-(name 'SnabbStudio-PeterUhnak.8' message 'Prefix renames.' id '0f5c3162-4f33-4486-be76-9cd3c47e02a0' date '9 July 2016' time '12:36:48.040383 pm' author 'PeterUhnak' ancestors ((name 'SnabbStudio-PeterUhnak.7' message 'SH -> SB prefixAdded SBHydra to contain references to downloaded evaluations.Added world menu icon.
-' id '6e3bc585-d176-57bc-83b6-f83028dc5e49' date '9 July 2016' time '12:34:34 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
+(name 'SnabbStudio-PeterUhnak.9' message 'Use FFI for unpacking.' id '53fafe38-aa9e-44ae-9e13-6c789b47f401' date '9 July 2016' time '10:45:43.720653 pm' author 'PeterUhnak' ancestors ((name 'SnabbStudio-PeterUhnak.8' message 'Prefix renames.
+' id '582e89c0-9595-5583-8281-e1e6b3033603' date '9 July 2016' time '12:37:17 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
