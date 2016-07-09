@@ -1,2 +1,2 @@
-(name 'Snabb-Timeline-PeterUhnak.10' message 'Rewrite of Timeline parser + tests.' id '8537ec65-144a-4d22-a99c-313d6b813489' date '9 July 2016' time '10:46:27.225845 pm' author 'PeterUhnak' ancestors ((name 'Snabb-Timeline-PeterUhnak.9' message 'Prefix renames.
-' id 'c3e6b4d8-02b5-5079-aa3f-650b964d62cc' date '9 July 2016' time '12:36:19 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
+(name 'Snabb-Timeline-PeterUhnak.11' message 'Is the first lag 10?' id 'ddf51e83-7e73-4003-9608-f1ea3cac597b' date '9 July 2016' time '10:49:02.493155 pm' author 'PeterUhnak' ancestors ((name 'Snabb-Timeline-PeterUhnak.10' message 'Rewrite of Timeline parser + tests.
+' id '34cec54f-0c3f-5bde-9d7e-5447d5002f11' date '9 July 2016' time '10:46:55 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
