@@ -1,2 +1,2 @@
-(name 'SnabbStudio-PeterUhnak.9' message 'Use FFI for unpacking.' id '53fafe38-aa9e-44ae-9e13-6c789b47f401' date '9 July 2016' time '10:45:43.720653 pm' author 'PeterUhnak' ancestors ((name 'SnabbStudio-PeterUhnak.8' message 'Prefix renames.
-' id '582e89c0-9595-5583-8281-e1e6b3033603' date '9 July 2016' time '12:37:17 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
+(name 'SnabbStudio-PeterUhnak.10' message 'Ensure the evaluation is downloaded before adding to the collection.' id 'af8d08b5-4c6e-4262-9d9b-8d33eec852d2' date '9 July 2016' time '10:54:50.751706 pm' author 'PeterUhnak' ancestors ((name 'SnabbStudio-PeterUhnak.9' message 'Use FFI for unpacking.
+' id '06e9a04b-fdcd-593e-8f78-e8e5984ca1e4' date '9 July 2016' time '10:46:14 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
