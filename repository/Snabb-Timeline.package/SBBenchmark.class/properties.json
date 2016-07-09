@@ -4,13 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "PeterUhnak 7/4/2016 11:33",
 	"instvars" : [
-		"data",
-		"firstElement",
-		"lastElement" ],
-	"name" : "SnabbGroupedData",
+		"source",
+		"evaluation" ],
+	"name" : "SBBenchmark",
 	"pools" : [
 		 ],
-	"super" : "RTData",
+	"super" : "RTBuilder",
 	"type" : "normal" }

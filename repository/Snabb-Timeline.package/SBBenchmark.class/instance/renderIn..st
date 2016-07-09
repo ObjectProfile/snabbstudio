@@ -25,7 +25,7 @@ renderIn: aView
 								nextPutAll: (d key at: #unit) ] ].
 			ds interaction
 				when: TRMouseLeftClick
-				do: [ :evt | (SHBuild from: evt element model key in: self evaluation) inspect ].
+				do: [ :evt | (SBBuild from: evt element model key in: self evaluation) inspect ].
 			ds dotShape color: (col rtValue: key).
 			ds connectColor: (col rtValue: key).
 			ds points: value.

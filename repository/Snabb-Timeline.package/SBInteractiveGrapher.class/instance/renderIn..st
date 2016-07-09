@@ -13,7 +13,7 @@ renderIn: aView
 			view when: TRMouseWheelEvent do: [ :evt | self mouseZoom: evt ].
 			"view when: TRMouseDragging do: [ :evt | self mouseDrag: evt ]"
 			view @ RTDraggableView.
-			SnabbSelectRangeContext setOnView: view.
+			SBSelectRangeContext setOnView: view.
 			self renderButtons ].
 	g := self createGrapher.
 	lb := self createInfoLegend.

@@ -13,7 +13,7 @@ initializeElement: aView
 			| fullContext context entries |
 			entries := (evt group collect: #model) reject: #isNil.
 			entries
-				ifNotEmpty: [ fullContext := (aView attributeAt: #SnabbInteractiveGrapher) context.
+				ifNotEmpty: [ fullContext := (aView attributeAt: #SBInteractiveGrapher) context.
 					context := fullContext
 						copyFrom: (fullContext indexOf: entries first)
 						to: (fullContext indexOf: entries last).

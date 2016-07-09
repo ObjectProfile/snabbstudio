@@ -1,4 +1,4 @@
 hooks
 showLog
-	(view attributeAt: #SnabbSelectRangeContextInteraction)
+	(view attributeAt: #SBSelectRangeContextInteraction)
 		select: (SnabbTimeline new records: self context)

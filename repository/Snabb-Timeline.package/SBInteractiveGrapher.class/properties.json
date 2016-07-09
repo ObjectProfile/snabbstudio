@@ -12,7 +12,7 @@
 		"data",
 		"wasRendered",
 		"dataset" ],
-	"name" : "SnabbInteractiveGrapher",
+	"name" : "SBInteractiveGrapher",
 	"pools" : [
 		 ],
 	"super" : "RTBuilder",

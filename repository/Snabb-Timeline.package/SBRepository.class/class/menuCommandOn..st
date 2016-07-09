@@ -1,7 +1,8 @@
 world menu
 menuCommandOn: aBuilder
 	<worldMenu>
-	aBuilder item: #SnabbStudio.
+	(aBuilder item: #SnabbStudio)
+		icon: SnabbIcons snabbSmallIcon.
 	
 	((aBuilder
 		item: 'Snabb Studio Launcher';

@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PeterUhnak 7/4/2016 11:33",
+	"commentStamp" : "",
 	"instvars" : [
-		"source",
-		"evaluation" ],
-	"name" : "SnabbBenchmark",
+		 ],
+	"name" : "SBSelectRangeContext",
 	"pools" : [
 		 ],
-	"super" : "RTBuilder",
+	"super" : "RTAbstractViewContext",
 	"type" : "normal" }

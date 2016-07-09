@@ -1,7 +1,7 @@
 accessing - computed
 dataSet
 	| ds |
-	dataset := ds := SnabbGroupedData new.
+	dataset := ds := SBGroupedData new.
 	ds dotShape color: Color purple.
 	"ds lineBuilder shape: RTSVGPathLine new."
 	"ds noDot."

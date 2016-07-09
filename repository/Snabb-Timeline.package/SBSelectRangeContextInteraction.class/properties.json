@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SnabbSelectRangeContext",
+	"name" : "SBSelectRangeContextInteraction",
 	"pools" : [
 		 ],
-	"super" : "RTAbstractViewContext",
+	"super" : "RTAbstractContextInteraction",
 	"type" : "normal" }
