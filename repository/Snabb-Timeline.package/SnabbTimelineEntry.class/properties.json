@@ -11,7 +11,6 @@
 		"aux",
 		"reserved",
 		"messageId",
-		"message",
 		"lag",
 		"core",
 		"numa",

@@ -1,0 +1,14 @@
+{
+	"category" : "Snabb-Timeline-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"reader" ],
+	"name" : "SBTimelineReaderTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

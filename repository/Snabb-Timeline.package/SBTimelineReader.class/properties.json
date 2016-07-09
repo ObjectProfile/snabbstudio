@@ -1,0 +1,14 @@
+{
+	"category" : "Snabb-Timeline",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"strings" ],
+	"name" : "SBTimelineReader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,5 +1,6 @@
 initialization
 readFrom: stream previousEntry: prev timeline: aTimeline
+	|message|
 	"Decode raw data."
 	tsc := (stream next: 8) unsignedLongLongAt: 1.
 	ip := (stream next: 8) unsignedLongLongAt: 1.
