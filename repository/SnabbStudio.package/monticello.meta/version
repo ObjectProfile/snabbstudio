@@ -1,6 +1,2 @@
-(name 'SnabbStudio-PeterUhnak.6' message 'Added world menu entry.' id 'bb090809-e6ee-4494-ae82-8e0f065cf761' date '4 July 2016' time '2:09:27.604472 pm' author 'PeterUhnak' ancestors ((name 'SnabbStudio-PeterUhnak.5' message 'Use image dir, not temp.
-' id '07ab1d0b-cf36-5808-afca-b4afa5e38e23' date '4 July 2016' time '1:55:31 pm' author 'PeterUhnak' ancestors ((name 'SnabbStudio-PeterUhnak.4' message 'Added interface manipulating with Hydra.
-' id '2754a5cb-a88e-5f19-a609-bfd46e4feb0c' date '4 July 2016' time '12:59:38 pm' author 'PeterUhnak' ancestors ((name 'SnabbStudio-LukeGorrie.3' message 'Milestone: Parsed a 2000 line trace file
-' id 'af865ced-2c3b-50a4-be4b-1bdb89d4f175' date '21 February 2016' time '3:39:15 pm' author 'LukeGorrie' ancestors ((name 'SnabbStudio-LukeGorrie.2' message 'Rough grammar for LuaJIT trace dumps
-' id '7295c00b-383a-5556-8b33-cf6dd2ccdddd' date '20 February 2016' time '6:51:40 pm' author 'LukeGorrie' ancestors ((name 'SnabbStudio-LukeGorrie.1' message 'LuaJIT trace dump parser (trivial version)
-' id 'c7c42064-e17b-5bf2-921b-c9a2d846d5cf' date '17 February 2016' time '4:25:29 pm' author 'LukeGorrie' ancestors () stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())
+(name 'SnabbStudio-PeterUhnak.7' message 'SH -> SB prefixAdded SBHydra to contain references to downloaded evaluations.Added world menu icon.' id '5942adb5-6c4a-4eca-a77e-52609f444756' date '9 July 2016' time '12:34:01.990201 pm' author 'PeterUhnak' ancestors ((name 'SnabbStudio-PeterUhnak.6' message 'Added world menu entry.
+' id '958856ae-9edb-529d-8541-b397b15ddccc' date '4 July 2016' time '2:09:28 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())

@@ -4,11 +4,15 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PeterUhnak 7/4/2016 11:32",
+	"commentStamp" : "",
 	"instvars" : [
+		"benchmark",
 		"id",
-		"storage" ],
-	"name" : "SHEvaluation",
+		"score",
+		"unit",
+		"buildId",
+		"evaluation" ],
+	"name" : "SBBuild",
 	"pools" : [
 		 ],
 	"super" : "Object",

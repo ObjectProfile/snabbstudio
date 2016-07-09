@@ -1,0 +1,14 @@
+{
+	"category" : "SnabbStudio",
+	"classinstvars" : [
+		"icons" ],
+	"classvars" : [
+		"Current" ],
+	"commentStamp" : "PeterUhnak 7/9/2016 11:41",
+	"instvars" : [
+		"icons" ],
+	"name" : "SnabbIcons",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
