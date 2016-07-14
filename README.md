@@ -9,9 +9,12 @@ Installing SnabbStudio is just a few steps:
 * The source of Pharo available on http://files.pharo.org/get-files/50/sources.zip
 * 
 
+
+
 In the future, we will provide a one-click experience, that will be based on a bundle summarizing these steps.
 
-
+------
+SnabbStudio can also be installed programmatically, however only experienced Pharo and Roassal programmers are recommended to use it:
 ```st
 Metacello new
     baseline: 'SnabbStudio';
