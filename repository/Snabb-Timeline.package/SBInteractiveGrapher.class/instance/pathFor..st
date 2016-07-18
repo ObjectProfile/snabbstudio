@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 pathFor: anEdge
 	| toStr midPoints midPoints2 pfp width |
 	midPoints := data sliceFrom: (data indexOf: anEdge from model) to: (data indexOf: anEdge to model).

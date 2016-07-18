@@ -1,6 +1,3 @@
-as yet unclassified
+accessing
 getTimeline
-
-	^ SnabbTimeline new
-    loadSamples: 3000
-    from: fileReference
+	^ SnabbTimeline new loadSamples: 3000 from: fileReference

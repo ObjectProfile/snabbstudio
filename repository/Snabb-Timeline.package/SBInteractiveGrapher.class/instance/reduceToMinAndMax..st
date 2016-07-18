@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 reduceToMinAndMax: aCollection
 	| values |
 	values := aCollection allButFirst allButLast

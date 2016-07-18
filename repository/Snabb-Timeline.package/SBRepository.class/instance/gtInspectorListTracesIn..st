@@ -1,4 +1,4 @@
-as yet unclassified
+visualization
 gtInspectorListTracesIn: composite
 	<gtInspectorPresentationOrder: -15>
 	composite table

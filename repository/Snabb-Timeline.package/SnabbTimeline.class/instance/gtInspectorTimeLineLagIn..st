@@ -1,11 +1,12 @@
 visualizations
 gtInspectorTimeLineLagIn: composite
-	<gtInspectorPresentationOrder: 30>
+	<gtInspectorPresentationOrder: -30>
 	| lb |
 	composite roassal2
 		title: 'Lag';
 		initializeView: [| b ds |
 			b := RTGrapher new.
+			b view: RTView new.
 			ds := RTData new.
 			ds dotShape circle color: Color red trans.
 			ds points: self records.
@@ -23,6 +24,9 @@ gtInspectorTimeLineLagIn: composite
 			lb addLineColor: Color blue text: 'Average'.
 			lb addLineColor: Color blue trans text: 'Standard deviation (= tell the range of normal values)'.
 			lb build.
+			
+			RTGrapherSelectRangeViewContext onGrapher: b callback: [ :elements |  (b view attributeAt: #presentation) selection: elements ].
+			b view  @ RTResizeableViewContextInteraction.
 			
 			b view ]
 			

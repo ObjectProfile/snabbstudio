@@ -1,6 +1,6 @@
 visualizations
 gtInspectorTimeLineSortedLagIn: composite
-	<gtInspectorPresentationOrder: 30>
+	<gtInspectorPresentationOrder: -25>
 	| lb |
 	composite roassal2
 		title: 'Sorted Lag';
