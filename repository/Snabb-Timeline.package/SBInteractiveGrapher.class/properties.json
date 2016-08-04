@@ -11,7 +11,9 @@
 		"centerIndex",
 		"data",
 		"wasRendered",
-		"dataset" ],
+		"dataset",
+		"grapher",
+		"labelBuilder" ],
 	"name" : "SBInteractiveGrapher",
 	"pools" : [
 		 ],

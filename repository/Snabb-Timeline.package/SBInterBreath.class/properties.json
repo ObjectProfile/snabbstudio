@@ -1,0 +1,14 @@
+{
+	"category" : "Snabb-Timeline",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PeterUhnak 7/30/2016 09:36",
+	"instvars" : [
+		 ],
+	"name" : "SBInterBreath",
+	"pools" : [
+		 ],
+	"super" : "SBBreath",
+	"type" : "normal" }

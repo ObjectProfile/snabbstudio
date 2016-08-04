@@ -7,7 +7,7 @@ gtInspectorTimeLineLagInteractiveIn: composite
 			b := SBInteractiveGrapher new.
 			b data: self records.
 			b zoom: 1.
-			b maxPoints: 10.
+			b maxPoints: 100.
 			b build.
 			b view @ RTResizeableViewContextInteraction.
 			b view ]

@@ -4,6 +4,4 @@ zoomAllOut
 		ifTrue: [ ^ self ].
 	zoom := 1.
 	centerIndex := nil.
-	self cleanView.
-	self renderIn: view.
-	view signalUpdate
+	self basicZoom

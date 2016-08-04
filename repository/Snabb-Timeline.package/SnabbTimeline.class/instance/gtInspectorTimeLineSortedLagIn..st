@@ -1,27 +1,20 @@
 visualizations
 gtInspectorTimeLineSortedLagIn: composite
 	<gtInspectorPresentationOrder: -25>
-	| lb |
+	| maxEntries |
+	maxEntries := 1000.
+	self records size > maxEntries
+		ifTrue: [ ^ composite label
+				title: 'Sorted Lag';
+				display:
+					'Due to graph complexity Lag view is available only for entry size samples <= '
+						, maxEntries asString , '. You are currently inspecting '
+						, self records size asString , ' entries.' ].
 	composite roassal2
 		title: 'Sorted Lag';
-		initializeView: [| b ds |
-			b := RTGrapher new.
-			ds := RTData new.
-			ds dotShape circle color: Color red trans.
-			ds points: (self records reverseSortedAs: #lag).
-			ds y: #lag.
-			b add: ds.
-			b axisX noLabel; noTick.
-			b axisY title: 'Lag'; noDecimal; withThousandsSeparator.
-			b addDecorator: (RTAverageDecorator new lineColor: Color blue).
-			b build.
-			
-			lb := RTLegendBuilder new.
-			lb view: b view.
-			lb addText: 'Lag along the entries'.
-			lb addText: 'Entries are sorted along their lag'.
-			lb addLineColor: Color blue text: 'Average'.
-			lb build.
-			
-			b view ]
-			
+		initializeView: [ | v |
+			v := RTView new.
+			SBTimeLineLagView new
+				records: (self records reverseSortedAs: #lag);
+				renderIn: v.
+			v ]

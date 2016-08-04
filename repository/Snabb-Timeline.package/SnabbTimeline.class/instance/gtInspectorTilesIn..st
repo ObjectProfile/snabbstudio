@@ -1,7 +1,15 @@
 visualizations
 gtInspectorTilesIn: composite
 	<gtInspectorPresentationOrder: 30>
-	| b |
+	| maxEntries b|
+	maxEntries := 1000.
+	self records size > maxEntries
+		ifTrue: [ ^ composite label
+				title: 'Tiles';
+				display:
+					'Due to graph complexity this view is available only for entry size samples <= '
+						, maxEntries asString , '. You are currently inspecting '
+						, self records size asString , ' entries.' ].
 	b := RTMondrian new.
 	b nodes: self records.
 	b normalizer

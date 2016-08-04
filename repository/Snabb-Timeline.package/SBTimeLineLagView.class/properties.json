@@ -1,0 +1,14 @@
+{
+	"category" : "Snabb-Timeline-Views",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"records" ],
+	"name" : "SBTimeLineLagView",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

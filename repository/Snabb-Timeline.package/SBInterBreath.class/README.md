@@ -1,0 +1,1 @@
+I represent a group of events that occured between individual breaths (this includes the start event before the first breath).

@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"entry" : "PeterUhnak 7/9/2016 22:19",
-		"file" : "PeterUhnak 7/9/2016 22:32",
-		"header" : "PeterUhnak 7/9/2016 22:19",
-		"setUp" : "PeterUhnak 7/9/2016 18:22",
-		"strings" : "PeterUhnak 7/9/2016 21:25",
-		"testReadEntry" : "PeterUhnak 7/9/2016 19:08",
-		"testReadEntryEnd" : "PeterUhnak 7/9/2016 22:23",
-		"testReadHeader" : "PeterUhnak 7/9/2016 22:17",
-		"testReadHeaderEnd" : "PeterUhnak 7/9/2016 22:23",
-		"testReadStream" : "PeterUhnak 7/9/2016 22:48",
-		"testReadStrings" : "PeterUhnak 7/9/2016 21:24",
-		"testStringFor" : "PeterUhnak 7/9/2016 21:26" } }
+		"entry" : "AlexandreBergel 7/18/2016 16:18:34",
+		"file" : "AlexandreBergel 7/18/2016 16:18:34",
+		"header" : "AlexandreBergel 7/18/2016 16:18:34",
+		"setUp" : "AlexandreBergel 7/18/2016 16:18:34",
+		"strings" : "AlexandreBergel 7/18/2016 16:18:34",
+		"testReadEntry" : "AlexandreBergel 7/18/2016 16:18:34",
+		"testReadEntryEnd" : "AlexandreBergel 7/18/2016 16:18:34",
+		"testReadHeader" : "AlexandreBergel 7/18/2016 16:18:34",
+		"testReadHeaderEnd" : "AlexandreBergel 7/18/2016 16:18:34",
+		"testReadStream" : "AlexandreBergel 7/18/2016 16:18:34",
+		"testReadStrings" : "AlexandreBergel 7/18/2016 16:18:34",
+		"testStringFor" : "AlexandreBergel 7/18/2016 16:18:34" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "Snabb-Timeline",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PeterUhnak 7/30/2016 09:35",
+	"instvars" : [
+		"strings" ],
+	"name" : "SBBreathGrouper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
