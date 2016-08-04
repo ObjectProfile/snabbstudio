@@ -3,7 +3,8 @@ renderIn: aView
 	| b ds lb messageTypes normalizer ib recordsByType |
 	recordsByType := Dictionary new.
 	self records
-		do: [ :each | (recordsByType at: each messageText ifAbsentPut: [ OrderedCollection new ]) add: each ].
+		do:
+			[ :each | (recordsByType at: each messageText ifAbsentPut: [ OrderedCollection new ]) add: each ].
 	recordsByType
 		keysAndValuesDo: [ :key :values | 
 			recordsByType
@@ -65,7 +66,7 @@ renderIn: aView
 	lb build.
 	lb := RTLegendBuilder new.
 	lb textSize: 10.
-	"	lb gapSize: 0."
+	lb gapSize: 0.
 	lb view: b view.
 	messageTypes
 		do: [ :each | 
@@ -79,7 +80,8 @@ renderIn: aView
 	lb build.
 	ib := RTDataInteractionBuilder new.
 	ib builder: b.
-	ib highlightElements: [ :e | ds elements select: [ :each | each model messageText = e ] ].
+	ib
+		highlightElements: [ :e | ds elements select: [ :each | each model messageText = e ] ].
 	ib
 		popupDecorator: [ :messageText | 
 			RTAverageDecorator new
@@ -101,10 +103,12 @@ renderIn: aView
 	lb := RTLegendBuilder new.
 	lb view: b view.
 	lb textSize: 10.
-	"	lb gapSize: 0."
+	lb gapSize: 0.
 	lb addText: 'Lag along the entries'.
 	lb addLineColor: Color red text: 'Average'.
-	lb addLineColor: Color red trans text: 'Standard deviation (= tell the range of normal values)'.
+	lb
+		addLineColor: Color red trans
+		text: 'Standard deviation (= tell the range of normal values)'.
 	lb build.
 	RTGrapherSelectRangeViewContext
 		onGrapher: b

@@ -14,4 +14,5 @@ createEntries
 		collect: [ :each | 
 			SnabbTimelineEntry new
 				tsc: each key;
+				lag: 0;
 				messageText: each value ]
