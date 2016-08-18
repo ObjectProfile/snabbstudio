@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"grouper",
-		"entry" ],
+		"grouper" ],
 	"name" : "SBBreathGrouperTest",
 	"pools" : [
 		 ],

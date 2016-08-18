@@ -1,3 +1,3 @@
-I take a collection of timeline entries and group them into breaths and interbreaths.
+I take a collection of breaths and group them.
 
-Interbreath is a group of events that occured between breaths.
+The group size is based on total time, so the cut-off between groups occurs after the time-size has been reached.

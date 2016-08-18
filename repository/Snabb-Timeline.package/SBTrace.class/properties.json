@@ -1,14 +1,16 @@
 {
-	"category" : "Snabb-Timeline-Launcher",
+	"category" : "Snabb-Timeline-Models",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "PeterUhnak 8/13/2016 14:22",
 	"instvars" : [
-		"fileReference" ],
+		"fileReference",
+		"name",
+		"timeline" ],
 	"name" : "SBTrace",
 	"pools" : [
 		 ],
-	"super" : "SBObject",
+	"super" : "Object",
 	"type" : "normal" }

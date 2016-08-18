@@ -1,10 +1,10 @@
 {
-	"category" : "Snabb-Timeline",
+	"category" : "Snabb-Timeline-Models",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "PeterUhnak 8/13/2016 23:55",
 	"instvars" : [
 		"strings" ],
 	"name" : "SBTimelineReader",

@@ -10,7 +10,7 @@ readEntry: aStream
   };"
 
 	| entry |
-	(entry := SnabbTimelineEntry new)
+	(entry := SBTimelineEntry new)
 		tsc: ((aStream next: 8) unsignedLongLongAt: 1);
 		ip: ((aStream next: 8) unsignedLongLongAt: 1);
 		aux: (aStream next: 4).
@@ -21,6 +21,10 @@ readEntry: aStream
 	entry core: (entry aux unsignedByteAt: 1).
 	entry numa: (entry aux unsignedByteAt: 4).
 	entry messageId: (aStream next: 8).
-	"skip msg0 .. msg3"
-	aStream skip: 32.
+	"do not skip msg0 .. msg3"
+	"aStream skip: 32."
+	entry msg0: ((aStream next: 8) unsignedLongLongAt: 1).
+	entry msg1: ((aStream next: 8) unsignedLongLongAt: 1).
+	entry msg2: ((aStream next: 8) unsignedLongLongAt: 1).
+	entry msg3: ((aStream next: 8) unsignedLongLongAt: 1).
 	^ entry

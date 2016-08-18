@@ -1,3 +1,3 @@
 accessing
 core
-	^ records first core
+	^ entries first core

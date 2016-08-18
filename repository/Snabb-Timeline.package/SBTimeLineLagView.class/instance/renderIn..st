@@ -2,9 +2,9 @@ as yet unclassified
 renderIn: aView
 	| b ds lb messageTypes normalizer ib recordsByType |
 	recordsByType := Dictionary new.
-	self records
+	self entries
 		do:
-			[ :each | (recordsByType at: each messageText ifAbsentPut: [ OrderedCollection new ]) add: each ].
+			[ :each | (recordsByType at: each messageTemplate ifAbsentPut: [ OrderedCollection new ]) add: each ].
 	recordsByType
 		keysAndValuesDo: [ :key :values | 
 			recordsByType
@@ -17,28 +17,28 @@ renderIn: aView
 	messageTypes := recordsByType keys.
 	normalizer := RTMultiLinearColorForIdentity new
 		objects: messageTypes;
-		command: #messageText.
+		command: #messageTemplate.
 	b := RTGrapher new.
 	b view: aView.
 	ds := RTData new.
 	ds dotShape circle color: [ :e | normalizer rtValue: e ].
-	ds points: self records.
+	ds points: self entries.
 	ds interaction noInteractions.
 	ds interaction fixedPopupText: #yourself.
 	ds interaction
-		highlightElements: [ :e | ds elements select: [ :each | each model messageText = e messageText ] ].
+		highlightElements: [ :e | ds elements select: [ :each | each model messageTemplate = e messageTemplate ] ].
 	ds interaction
 		popupDecorator: [ :model | 
 			RTAverageDecorator new
 				withLabel: [ :x | 'avg' ];
 				lineColor: Color black;
-				dataset: (recordsByType at: model messageText) ].
+				dataset: (recordsByType at: model messageTemplate) ].
 	ds interaction
 		popupDecorator: [ :model | 
 			RTStandardDeviationDecorator new
 				withLabel: [ :x | 'SD' ];
 				lineColor: Color black;
-				dataset: (recordsByType at: model messageText) ].
+				dataset: (recordsByType at: model messageTemplate) ].
 	ds y: #lag.
 	b add: ds.
 	b axisX
@@ -81,7 +81,7 @@ renderIn: aView
 	ib := RTDataInteractionBuilder new.
 	ib builder: b.
 	ib
-		highlightElements: [ :e | ds elements select: [ :each | each model messageText = e ] ].
+		highlightElements: [ :e | ds elements select: [ :each | each model messageTemplate = e ] ].
 	ib
 		popupDecorator: [ :messageText | 
 			RTAverageDecorator new

@@ -1,10 +1,10 @@
 {
-	"category" : "Snabb-Timeline",
+	"category" : "Snabb-Timeline-Models",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PeterUhnak 7/30/2016 09:35",
+	"commentStamp" : "PeterUhnak 8/16/2016 15:41",
 	"instvars" : [
 		"strings" ],
 	"name" : "SBBreathGrouper",

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testReadHeaderEnd
 	| stream |
 	stream := self header readStream.

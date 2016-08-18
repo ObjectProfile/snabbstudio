@@ -1,0 +1,19 @@
+{
+	"category" : "Snabb-Timeline-Visualizations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"breaths",
+		"groups",
+		"breathGroups",
+		"normalizer",
+		"groupSize",
+		"grapher" ],
+	"name" : "SBBreathOverviewView",
+	"pools" : [
+		 ],
+	"super" : "RTBuilder",
+	"type" : "normal" }

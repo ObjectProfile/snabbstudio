@@ -1,3 +1,3 @@
 accessing
 numa
-	^ records first numa
+	^ entries first numa

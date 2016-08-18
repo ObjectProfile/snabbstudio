@@ -1,0 +1,14 @@
+{
+	"category" : "Snabb-Timeline-Launcher",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PeterUhnak 8/13/2016 14:25",
+	"instvars" : [
+		"traces" ],
+	"name" : "SBLocalRepository",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Snabb-Timeline-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"breath" ],
+	"name" : "SBBreathTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Snabb-Timeline-Visualizations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PeterUhnak 7/4/2016 11:33",
+	"instvars" : [
+		"source",
+		"evaluation" ],
+	"name" : "SBBenchmarkView",
+	"pools" : [
+		 ],
+	"super" : "RTBuilder",
+	"type" : "normal" }

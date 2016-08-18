@@ -1,0 +1,15 @@
+{
+	"category" : "Snabb-Timeline-Models",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AlexandreBergel 5/5/2016 09:10",
+	"instvars" : [
+		"header",
+		"entries" ],
+	"name" : "SBTimeline",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,29 @@
+{
+	"category" : "Snabb-Timeline-Models",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PeterUhnak 8/13/2016 23:54",
+	"instvars" : [
+		"tsc",
+		"ip",
+		"aux",
+		"reserved",
+		"messageId",
+		"lag",
+		"core",
+		"numa",
+		"msg0",
+		"msg1",
+		"msg2",
+		"msg3",
+		"messageCategory",
+		"messagePriority",
+		"messageTemplate",
+		"messageText" ],
+	"name" : "SBTimelineEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

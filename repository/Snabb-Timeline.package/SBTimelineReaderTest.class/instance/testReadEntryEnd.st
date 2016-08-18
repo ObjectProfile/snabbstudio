@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testReadEntryEnd
 	| stream |
 	stream := self entry readStream.

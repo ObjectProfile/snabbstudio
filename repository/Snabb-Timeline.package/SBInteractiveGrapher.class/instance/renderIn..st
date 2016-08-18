@@ -36,8 +36,11 @@ renderIn: aView
 		noDecimal;
 		numberOfLabels: 10 / 2;
 		numberOfTicks: 10;
+		labelConversion: [ :num | num asInteger asStringWithCommas ];
 		labelRotation: -30.
-	grapher axisY noDecimal.
+	grapher axisY
+		noDecimal;
+		labelConversion: [ :num | num asInteger asStringWithCommas ].
 	grapher build.
 	view addAll: grapher view elements.
 	view addAll: grapher view edges.

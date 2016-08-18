@@ -1,4 +1,4 @@
 adding
 add: anEntry
-	records add: anEntry.
+	entries add: anEntry.
 	lag := lag + anEntry lag

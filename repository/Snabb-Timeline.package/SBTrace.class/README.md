@@ -1,0 +1,1 @@
+I represent a local trace; I hold references to the source file as well as the parsed content.

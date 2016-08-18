@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize.
-	records := OrderedCollection new.
+	entries := OrderedCollection new.
 	lag := 0

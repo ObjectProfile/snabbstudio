@@ -1,3 +1,3 @@
 accessing
-fileReference: anObject
-	fileReference := anObject
+fileReference: aFileReference
+	fileReference := aFileReference

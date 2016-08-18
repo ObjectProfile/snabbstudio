@@ -1,5 +1,5 @@
 {
-	"category" : "Snabb-Timeline",
+	"category" : "Snabb-Timeline-Models",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -11,5 +11,5 @@
 	"name" : "SBBreath",
 	"pools" : [
 		 ],
-	"super" : "SnabbTimeline",
+	"super" : "SBTimeline",
 	"type" : "normal" }

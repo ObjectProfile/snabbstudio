@@ -1,12 +1,12 @@
 {
-	"category" : "Snabb-Timeline-Views",
+	"category" : "Snabb-Timeline-Visualizations",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"records" ],
+		"entries" ],
 	"name" : "SBTimeLineLagView",
 	"pools" : [
 		 ],

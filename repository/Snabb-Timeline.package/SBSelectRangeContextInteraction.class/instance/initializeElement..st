@@ -10,11 +10,9 @@ initializeElement: aView
 	int
 		when: RTSelectionEnd
 		do: [ :evt | 
-			| fullContext context entries |
+			| entries |
 			entries := (evt group collect: #model) reject: #isNil.
-			entries
-				ifNotEmpty: [ fullContext := (aView attributeAt: #SBInteractiveGrapher) context.
-					context := fullContext
-						copyFrom: (fullContext indexOf: entries first)
-						to: (fullContext indexOf: entries last).
-					self presentation selection: (SnabbTimeline new records: context) ] ]
+			(aView hasAttribute: SBInteractiveGrapher name)
+				ifTrue: [ self selectOnInteractiveGrapher: entries view: aView ].
+			(aView hasAttribute: SBBreathOverviewView name)
+				ifTrue: [ self selectOnBreathOverViewView: entries view: aView ] ]

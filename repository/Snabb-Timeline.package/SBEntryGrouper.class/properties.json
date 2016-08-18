@@ -1,0 +1,14 @@
+{
+	"category" : "Snabb-Timeline-Models",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PeterUhnak 7/30/2016 09:35",
+	"instvars" : [
+		"strings" ],
+	"name" : "SBEntryGrouper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
