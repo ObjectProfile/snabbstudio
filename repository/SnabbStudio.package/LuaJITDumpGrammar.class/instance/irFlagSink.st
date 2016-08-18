@@ -1,3 +1,0 @@
-grammar
-irFlagSink
-	^'}' asParser 

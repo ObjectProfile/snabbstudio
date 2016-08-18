@@ -1,3 +1,0 @@
-grammar-ir
-irFlagPhi
-	^'+' asParser

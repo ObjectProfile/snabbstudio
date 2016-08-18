@@ -1,3 +1,0 @@
-grammar
-trace
-	^traceComplete / traceAborted
