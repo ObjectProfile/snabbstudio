@@ -1,0 +1,14 @@
+{
+	"category" : "Snabb-LuaJIT",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LuaJITDumpParser",
+	"pools" : [
+		 ],
+	"super" : "LuaJITDumpGrammar",
+	"type" : "normal" }

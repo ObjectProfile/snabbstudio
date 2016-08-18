@@ -1,0 +1,3 @@
+grammar
+irFlagSink
+	^'}' asParser 

@@ -1,0 +1,3 @@
+grammar
+irSink
+	^'{sink}' asParser

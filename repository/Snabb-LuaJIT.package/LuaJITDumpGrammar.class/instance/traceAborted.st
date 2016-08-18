@@ -1,0 +1,3 @@
+grammar
+traceAborted
+	^bytecodeTrace , traceAbort

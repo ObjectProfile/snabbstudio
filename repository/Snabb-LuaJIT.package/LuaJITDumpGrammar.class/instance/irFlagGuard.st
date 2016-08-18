@@ -1,0 +1,3 @@
+grammar-ir
+irFlagGuard
+	^'>' asParser

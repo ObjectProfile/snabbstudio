@@ -1,0 +1,16 @@
+{
+	"category" : "Snabb-LuaJIT",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"bytecodeTrace",
+		"irTrace",
+		"mcodeTrace" ],
+	"name" : "LuaJITDump",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
