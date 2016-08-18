@@ -1,6 +1,6 @@
 visualizations
 gtInspectorTimeLineLagInteractiveIn: composite
-	<gtInspectorPresentationOrder: -28>
+"	<gtInspectorPresentationOrder: -28>"
 	composite roassal2
 		title: 'Lag interactive';
 		initializeView: [ | b |
