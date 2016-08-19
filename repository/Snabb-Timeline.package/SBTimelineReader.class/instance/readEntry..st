@@ -13,13 +13,13 @@ readEntry: aStream
 	(entry := SBTimelineEntry new)
 		tsc: ((aStream next: 8) unsignedLongLongAt: 1);
 		ip: ((aStream next: 8) unsignedLongLongAt: 1);
-		aux: (aStream next: 4).
+		aux_: (aStream next: 4).
 	entry tsc = 0
 		ifTrue: [ ^ nil ].
 	"skip reserved"
 	aStream skip: 4.
-	entry core: (entry aux unsignedByteAt: 1).
-	entry numa: (entry aux unsignedByteAt: 4).
+	entry core: (entry aux_ unsignedByteAt: 1).
+	entry numa: (entry aux_ unsignedByteAt: 4).
 	entry messageId: (aStream next: 8).
 	"do not skip msg0 .. msg3"
 	"aStream skip: 32."

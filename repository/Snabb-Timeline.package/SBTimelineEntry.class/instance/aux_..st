@@ -1,3 +1,3 @@
 accessing
-aux: anObject
+aux_: anObject
 	aux := anObject
