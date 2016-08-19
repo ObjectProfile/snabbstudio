@@ -1,3 +1,4 @@
 accessing
 breathGroups
-	^ breathGroups ifNil: [ SBBreathGrouper new groupBreaths: breaths bySize: self groupSize ]
+	^ breathGroups
+		ifNil: [ SBBreathGrouper new groupMiddleBreaths: breaths bySize: self groupSize ]
