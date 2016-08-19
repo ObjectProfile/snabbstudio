@@ -1,3 +1,3 @@
 accessing
 cyclesPerBreath
-	^ entries last tsc - entries first tsc "/ 100"
+	^ entries last tsc - entries first tsc
