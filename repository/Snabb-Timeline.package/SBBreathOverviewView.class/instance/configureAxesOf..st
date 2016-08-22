@@ -1,5 +1,6 @@
 hooks
 configureAxesOf: aGrapher
+	aGrapher shouldUseNiceLabels: true.
 	aGrapher axisX
 		noDecimal;
 		numberOfLabels: 10;
