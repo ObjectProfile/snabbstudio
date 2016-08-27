@@ -11,7 +11,7 @@
 		"breathGroups",
 		"normalizer",
 		"groupSize",
-		"grapher" ],
+		"multiGrapher" ],
 	"name" : "SBBreathOverviewView",
 	"pools" : [
 		 ],

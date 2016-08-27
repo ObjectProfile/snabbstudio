@@ -1,10 +1,8 @@
 hooks
 renderIn: aView
-	| sets |
-	grapher ifNotNil: [ self cleanView: grapher view ].
-	grapher := RTGrapher new.
-	grapher minX: self breathGroups first time.
-	grapher withoutOrigin.
+	| sets grapher |
+	multiGrapher ifNotNil: [ self cleanView: multiGrapher view ].
+	multiGrapher := RTMultiGrapher new.
 	self renderOnce: aView.
 	sets := Dictionary
 		with: #cyclesPerBreath -> 'Cycles per Breath'
@@ -13,11 +11,14 @@ renderIn: aView
 		with: #packetsPerKCycle -> 'Packets Per KCycle'.
 	normalizer := RTMultiLinearColorForIdentity new objects: sets keys.
 	sets
-		keysAndValuesDo: [ :selector :label | 
-			grapher add: (self createDatasetFor: selector labeled: label).
-			(self createDecoratorsFor: selector labeled: label)
-				do: [ :each | grapher addDecorator: each ] ].
-	self configureAxesOf: grapher.
-	grapher legend.
-	grapher build.
-	self copyView: grapher view to: view
+		keysAndValuesDo: [ :metric :label | 
+			grapher := RTGrapher new.
+			grapher minX: self breathGroups first time.
+			grapher withoutOrigin.
+			grapher add: (self createDatasetFor: metric labeled: label).
+			(self createDecoratorsFor: metric labeled: label) do: [ :each | grapher addDecorator: each ].
+			self configureAxesOf: grapher for: metric.
+			multiGrapher add: grapher ].
+	multiGrapher legend.
+	multiGrapher build.
+	self copyView: multiGrapher view to: view

@@ -9,10 +9,10 @@ renderOnce: aView
 	"			SBSelectRangeContext setOnView: view."
 	"			self renderButtons."
 	zs := self createZoomSlider.
-	zs size: grapher extent y.
+	zs size: multiGrapher extent y.
 	zs build.
 	e := zs view elements.
-	e translateBy: (grapher extent x + 20) @ grapher extent y negated
+	e translateBy: (multiGrapher extent x + 20) @ multiGrapher extent y negated
 	"			ps := self createPanSlider.
 			ps size: grapher extent x.
 			ps build.
