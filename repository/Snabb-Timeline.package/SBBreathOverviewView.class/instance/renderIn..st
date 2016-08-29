@@ -5,10 +5,10 @@ renderIn: aView
 	multiGrapher := RTMultiGrapher new.
 	self renderOnce: aView.
 	sets := Dictionary
+		with: #packetsPerKCycle -> 'Packets Per KCycle'
 		with: #cyclesPerBreath -> 'Cycles per Breath'
 		with: #bytesPerPacket -> 'Bytes Per Packet'
-		with: #packetsPerBreath -> 'Packets Per Breath'
-		with: #packetsPerKCycle -> 'Packets Per KCycle'.
+		with: #packetsPerBreath -> 'Packets Per Breath'.
 	normalizer := RTMultiLinearColorForIdentity new objects: sets keys.
 	sets
 		keysAndValuesDo: [ :metric :label | 
