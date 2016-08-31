@@ -1,0 +1,1 @@
+I visualize the lag of events in a graph. See the 'Lag' and 'Sorted Lag' tabs in a Timeline inspector.

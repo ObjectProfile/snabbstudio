@@ -12,5 +12,5 @@ gtInspectorGroupedBreathsGraphIn: composite
 			b := SBBreathOverviewView new.
 			b breaths: self breaths.
 			b build.
-			b view @ RTResizeableViewContextInteraction.
+			"b view @ RTEmptyViewContextInteraction."
 			b view ]

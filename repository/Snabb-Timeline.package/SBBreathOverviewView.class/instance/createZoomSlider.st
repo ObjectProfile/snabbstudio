@@ -4,7 +4,7 @@ createZoomSlider
 	zoomSlider := RTSlider new.
 	zoomSlider view: view.
 	zoomSlider labeled.
-	zoomSlider max: ((self breaths sum: #cyclesPerBreath) / 1e6 / 2) asFloat.
+	zoomSlider max: ((self groupSize * 20) min: ((self breaths sum: #cyclesPerBreath) / 1e6 / 2) asFloat).
 	zoomSlider min: self groupSize.
 	zoomSlider value: self groupSize.
 	zoomSlider

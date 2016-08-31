@@ -15,18 +15,22 @@ gtInspectorTracesIn: composite
 			composite update ]
 			icon: (Smalltalk ui icons iconNamed: #smallAdd)
 			entitled: 'Add Local Trace';
-		morphicSelectionAct: [ :list | list selection inspect ]
-			icon: GLMUIThemeExtraIcons glamorousInspect
+		selectionAct: [ :list | list selection inspect ]
+			icon: Smalltalk ui theme icons glamorousInspect
 			on: $i
 			entitled: 'Inspect';
+		selectionAct: [ :list | self removeFirstBreathOf: list selection timeline ]
+			icon: Smalltalk ui theme icons glamorousPreferences
+			entitled: 'Remove first breath';
 		selectionAct: [ :each | 
 			(UIManager default request: 'New trace name' initialAnswer: each selection name)
 				ifNotNil: [ :newName | 
 					each selection name: newName.
 					composite update ] ]
+			icon: Smalltalk ui theme icons glamorousEdit
 			entitled: 'Rename ...';
-		morphicSelectionAct: [ :each | 
+		selectionAct: [ :each | 
 			traces remove: each selection.
 			composite update ]
-			icon: GLMUIThemeExtraIcons glamorousRemove
+			icon: Smalltalk ui theme icons glamorousRemove
 			entitled: 'Remove from list'

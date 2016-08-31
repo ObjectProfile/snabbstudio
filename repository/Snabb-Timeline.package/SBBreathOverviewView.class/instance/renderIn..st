@@ -3,6 +3,9 @@ renderIn: aView
 	| sets grapher |
 	multiGrapher ifNotNil: [ self cleanView: multiGrapher view ].
 	multiGrapher := RTMultiGrapher new.
+"	RTGrapherSelectRangeViewContext
+		onGrapher: multiGrapher
+		callback: [ :elements | (multiGrapher view attributeAt: #presentation) selection: elements ]."
 	self renderOnce: aView.
 	sets := Dictionary
 		with: #packetsPerKCycle -> 'Packets Per KCycle'
